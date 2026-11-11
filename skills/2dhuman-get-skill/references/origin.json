@@ -1,0 +1,28 @@
+{
+  "skillName": "2DHUMAN GET-skill",
+  "skillId": "2dhuman-get-skill",
+  "version": "1.0.0",
+  "originTool": "generate_image",
+  "originMode": "text-to-image",
+  "originOutput": "hunter_2d_side_pixel.png",
+  "originPrompt": "references/original-hunter-prompt.md",
+  "originParameters": {
+    "output_name": "hunter_2d_side_pixel.png",
+    "reference_images": [],
+    "size": "not specified; tool default",
+    "seed": "not specified",
+    "model": "tool-managed; not exposed in recorded result"
+  },
+  "anchor": {
+    "path": "assets/hunter-style-anchor.png",
+    "sha256": "6dc3b117c186b69cc3dca2b56d0bd4238a3bbcc8b62155a4103563cf236aa877",
+    "actualWidth": 1499,
+    "actualHeight": 1049
+  },
+  "continuationMode": "image reference plus fixed style prompt",
+  "limitations": [
+    "Actual pixel grid and color count were not technically validated.",
+    "No continuation generation has been tested by this installation.",
+    "Reference conditioning reduces drift but cannot guarantee identical style."
+  ]
+}
